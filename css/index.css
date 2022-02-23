@@ -1,31 +1,28 @@
 :root {
-    --orange: #ff4b32;
-    --bg-main: #e5e5e5;
+	--orange: #ff4b32;
+	--bg-main: #e5e5e5;
 }
 .text-orange {
-    color: var(--orange);
+	color: var(--orange);
 }
 .bg-orange {
-    background: var(--orange);
+	background: var(--orange);
 }
 .wrapper {
-    max-width: 1440px;
-    margin: 0 auto;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 .bg_banner {
-   background-image: url("../img/png/baner.png");
-    padding: 210px 0px 110px 0px;
+	background-image: url("../img/png/baner.png");
+	padding: 210px 0px 110px 0px;
 }
 .bg_banner-2 {
-    left: 0;
-    background-image: url("../img/png/Follow.png");
-    padding: 100px 0px;
-    min-height: 650px;
+	background-image: url("../img/png/Follow.png");
 }
 .img_container {
-    height: 265px;
-    display: flex;
-    align-items: center;
+	height: 265px;
+	display: flex;
+	align-items: center;
 }
 
 .load {
