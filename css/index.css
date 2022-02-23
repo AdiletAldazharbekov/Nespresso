@@ -19,6 +19,10 @@
 .bg_banner-2 {
 	background-image: url("../img/png/Follow.png");
 }
+.bg_footer {
+	background-image: url("../img/png/Footer.png");
+    padding: 75px 0px 50px 0px;
+}
 .img_container {
 	height: 265px;
 	display: flex;
@@ -43,4 +47,61 @@
 
 .mb-140{
     margin-bottom: 140px;
+}
+
+li a {
+	font-family: "Open Sans", sans-serif !important;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 160%;
+	color: #ffffff !important;
+	opacity: 0.6;
+}
+
+li a:hover {
+	color: var(--orange) !important;
+	opacity: 1;
+	/* font-weight: bold; */
+}
+h1 {
+	max-width: 524px;
+    width: 100%;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 58px;
+	line-height: 120%;
+}
+h2 {
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 43px;
+	line-height: 130%;
+}
+
+h4 {
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 130%;
+}
+h5 {
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 150%;
+}
+
+
+p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 160%;
+    color: #000000;
+	opacity: 0.7;
 }
