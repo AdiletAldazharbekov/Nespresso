@@ -12,10 +12,15 @@
     max-width: 1440px;
     margin: 0 auto;
 }
-
 .bg_banner {
-    background-image: url("../img/png/baner.png");
+   background-image: url("../img/png/baner.png");
     padding: 210px 0px 110px 0px;
+}
+.bg_banner-2 {
+    left: 0;
+    background-image: url("../img/png/Follow.png");
+    padding: 100px 0px;
+    min-height: 650px;
 }
 .img_container {
     height: 265px;
